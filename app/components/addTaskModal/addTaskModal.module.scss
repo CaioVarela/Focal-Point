@@ -1,0 +1,128 @@
+.addTaskModalContainer {
+  display: flex;
+  position: fixed;
+  min-height: 100%;
+  min-width: 100%;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.taskModal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 32px;
+  gap: 32px;
+
+  min-width: 450px;
+  box-shadow: 0px 24px 48px -12px rgba(16, 24, 40, 0.18);
+  border-radius: 16px;
+  z-index: 50;
+
+  background-color: white;
+
+  @media (max-width: 768px) {
+    min-width: calc(100% - 32px);
+    min-height: 100vh;
+    border-radius: 0;
+    padding: 24px;
+  }
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 25;
+  background-color: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(2px);
+}
+
+.titleText {
+  font-family: "Inter Tight", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29.04px;
+  letter-spacing: -0.02em;
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 16px;
+  width: 100%;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    gap: 16px;
+  }
+}
+
+.inputTitleText {
+  font-family: "Inter Tight", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  display: flex;
+  width: 100%;
+  font-size: 16px;
+  line-height: 19.36px;
+  letter-spacing: -0.02em;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.button {
+  flex: 1;
+  padding: 12px;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 8px;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+}
+
+.input {
+  border: 1px solid #d7dde9;
+  border-radius: 8px;
+  width: 100%;
+  min-height: 45px;
+  font-family: "Inter Tight", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.36px;
+  letter-spacing: -0.02em;
+  padding: 0px 16px;
+}
+
+@media (max-width: 768px) {
+  .taskModal {
+    justify-content: flex-start;
+  }
+
+  .titleText {
+    font-size: 20px;
+  }
+
+  .input {
+    min-height: 40px;
+  }
+}

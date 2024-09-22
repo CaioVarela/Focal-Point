@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500&display=swap");
+
+.confirmationButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 24px;
+  gap: 8px;
+  width: 100%;
+  cursor: pointer;
+
+  background: linear-gradient(90deg, #0796d3 0%, #53c0f0 68.65%);
+  box-shadow:
+    0 4px 6px rgba(0, 0, 0, 0.1),
+    0 1px 3px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  border: none;
+
+  .buttonText {
+    font-family: "Inter Tight", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+
+    color: #ffffff;
+  }
+}
+
+.deleteButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 24px;
+  gap: 8px;
+  width: 100%;
+  cursor: pointer;
+
+  background: linear-gradient(90deg, #d30707 0%, #f05353 68.65%);
+  box-shadow:
+    0 4px 6px rgba(0, 0, 0, 0.1),
+    0 1px 3px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  border: none;
+
+  .buttonText {
+    font-family: "Inter Tight", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+
+    color: #ffffff;
+  }
+}
+
+.cancelButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 24px;
+  gap: 8px;
+  width: 100%;
+  cursor: pointer;
+
+  background: #e7eefb;
+  box-shadow:
+    0 4px 6px rgba(0, 0, 0, 0.1),
+    0 1px 3px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  border: none;
+
+  .buttonText {
+    font-family: "Inter Tight", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+
+    color: #000;
+  }
+}
+
+.addButton {
+  display: flex;
+  justify-content: center;
+  padding: 16px 24px;
+  gap: 8px;
+  width: 100%;
+  cursor: pointer;
+
+  background: linear-gradient(90deg, #0796d3 0%, #53c0f0 68.65%);
+  box-shadow:
+    0 4px 6px rgba(0, 0, 0, 0.1),
+    0 1px 3px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  border: none;
+
+  .buttonText {
+    font-family: "Inter Tight", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+
+    color: #ffffff;
+  }
+}
