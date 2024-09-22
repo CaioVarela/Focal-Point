@@ -1,3 +1,5 @@
+@import url("@fontsource/inter");
+
 .taskItem {
   display: flex;
   width: 100%;
@@ -15,7 +17,7 @@
 }
 
 .taskItemText {
-  font-family: "Inter Tight";
+  font-family: "Inter Tight" sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -29,7 +31,7 @@
 }
 
 .completed {
-  font-family: "Inter Tight";
+  font-family: "Inter Tight" sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
